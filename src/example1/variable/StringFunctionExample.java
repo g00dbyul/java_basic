@@ -37,6 +37,7 @@ public class StringFunctionExample {
         String[] splited = str.split(" ");
         System.out.println(splited[0] + splited[1]);
 
+        // 해당 문자열 패턴의 포함 여부
         System.out.println(str.contains("ll"));
         System.out.println(str.contains("xx"));
     }
